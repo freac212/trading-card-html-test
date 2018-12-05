@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <title>Trading Card</title>
+    <meta name="author" content="DonnyG">
+    <meta name="description" content="A trading card made into a website">
+    <meta name="keywords" content="HTML, CSS, JavaScript, TradingCards, Cards, Software, Developer">
+    <meta charset="UTF-8">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  </head>
+  <body>
+    <div class="card-body">
+      <header>
+        <h1><i class="fas fa-file-code"></i> The Software Dev</h1>
+      </header>
+      <div class="card-image-container">
+        <img class="card-image" src="images/software-dev-man-v1.png" alt="A pixel art version of man standing holding a keyboard at his side.">
+      </div>
+      
+      <div class="card-info-container">
+        <div class="card-info">
+
+          <!-- Interesting Fact -->
+          <div class="info-small-fact">
+            <p>"The average Software Developer works 8 hours a day."</p>
+          </div>
+
+          <!-- Info Items! -->
+          <ul class="info-traits">
+            <!-- A List-->
+            <!-- Full star: <i class="fas fa-star"></i> -->
+            <!-- Half star: <i class="fas fa-star-half-alt"></i> -->
+            <!-- Empty star: <i class="far fa-star"></i> -->
+            <div>
+              <span class="trait">Power: </span>
+              <div class="trait-description">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <div>
+              <span class="trait">Strength: </span>
+              <div class="trait-description">
+                <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+              </div>
+            </div>
+            <div>
+              <span class="trait">Stamina: </span>
+              <div class="trait-description">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+              </div>
+            </div>
+            <div>
+                <span class="trait">Defense: </span>
+                <div class="trait-description">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                </div>
+              </div>
+            </ul>
+
+          <!-- Description -->
+          <div class="info-description">
+            <p>
+                <span>Ability(s): </span>
+                <ul>
+                  <li><span>Coffee</span> - Adds 2 points to Stamina and 1 point to strength</li>
+                  <li><span>StackOverflow</span> - Can request all stats on <i>any</i> other characters once per battle</li>
+                </ul>
+            </p>
+            <p>
+              <span>Attack(s): </span>
+              <ul>
+                <li><span>Keyboard Slam</span> - Light melee attack</li>
+                <li><span>Confusion</span> - On hit causes confusion (Works on anyone but other Software Developers)</li>
+              </ul>
+            </p>
+          </div>
+          <div class="info-author">
+            <span>By: Donny</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
